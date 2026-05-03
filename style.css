@@ -2,26 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 #portfolioLanding {
     background-color: #1d2c1e;
-    padding: 50px;
+    padding-top: 320px;
+    padding-bottom: 410px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
 #welcomeTextLanding {
     color: #fff;
-    font-size: 8em;
+    font-size: 3em;
     margin-top: 20px;
 }
 
 #descriptionTextLanding {
     color: #acd3b4;
-    font-size: 2em;
+    font-size: 1em;
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 20px;
 }
 
+.sectionSpacer {
+    padding: 500px;
+}
