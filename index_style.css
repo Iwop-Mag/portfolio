@@ -41,7 +41,7 @@
     margin: 100px;
 }
 
-#researchHeading {
+#contentHeading {
     color: #1d2c1e;
     padding: 50px;
     text-align: center;
@@ -50,7 +50,7 @@
     font-weight: 800;
 }
 
-#researchHeadingHR {
+#contentHR {
     width: 550px;
     height: 5px;
     background-color: #1d2c1e;
@@ -59,27 +59,13 @@
     margin-bottom: 20px;
 }
 
-#parentResearchSection.researchSection {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    gap: 8px;
+#skills {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 0.9em;
+    margin-top: 50px;
+    text-align: left;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
-    
-#rS1 {
-    grid-column: span 2 / span 2;
-    grid-row: span 5 / span 5;
-}
-
-#rS2 {
-    grid-column: span 2 / span 2;
-    grid-row: span 5 / span 5;
-    grid-column-start: 3;
-}
-
-#rS3 {
-    grid-column: span 2 / span 2;
-    grid-row: span 5 / span 5;
-    grid-column-start: 5;
-}
-        
