@@ -38,11 +38,48 @@
 }
 
 .sectionSpacerSmall {
-    padding: 100px;
+    margin: 100px;
 }
 
-#contentSection.projectsHeading {
+#researchHeading {
+    color: #1d2c1e;
     padding: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    font-weight: 800;
 }
+
+#researchHeadingHR {
+    width: 550px;
+    height: 5px;
+    background-color: #1d2c1e;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#parentResearchSection.researchSection {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+#rS1 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+}
+
+#rS2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+}
+
+#rS3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 5 / span 5;
+    grid-column-start: 5;
+}
+        
