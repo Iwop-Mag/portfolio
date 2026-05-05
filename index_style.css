@@ -75,11 +75,11 @@
     width: 1100px;
     margin: 0 auto;
     margin-bottom: 100px;
-    height: 300px;              /* Fixed height for the row */
+    height: 300px;
 }
 
 .card {
-    flex: 1;                    /* All cards share equal width by default */
+    flex: 1;
     background-color: #acd3b4;
     border-radius: 15px;
     padding: 30px;
@@ -90,31 +90,28 @@
     flex-direction: column;
     justify-content: center;
 
-    /* ✅ Smooth expansion transition */
     transition: flex 0.4s ease, background-color 0.3s ease;
 }
 
-/* ✅ Expands the hovered card */
 .card:hover {
-    flex: 2.5;                  /* Takes more space than the others */
-    background-color: #93c4a0;  /* Slightly darker on hover */
+    flex: 2.5;
+    background-color: #93c4a0;
 }
 
-.card-title {
+.cardTitle {
     font-size: 1.3em;
     font-weight: 700;
     color: #1d2c1e;
     margin-bottom: 10px;
 }
 
-.card-description {
+.cardDescription {
     font-size: 0.9em;
     font-weight: 400;
     color: #1d2c1e;
 }
 
-/* ✅ Hidden by default */
-.card-details {
+.cardDetails {
     max-height: 0;
     opacity: 0;
     overflow: hidden;
@@ -122,14 +119,13 @@
     margin-top: 0;
 }
 
-/* ✅ Revealed on hover */
-.card:hover .card-details {
+.card:hover .cardDetails {
     max-height: 200px;
     opacity: 1;
     margin-top: 15px;
 }
 
-.card-details p {
+.cardDetails p {
     font-size: 0.85em;
     font-weight: 300;
     color: #1d2c1e;
