@@ -324,13 +324,13 @@
 }
 
 .contactText {
-    margin-left: 80px;
+    margin-left: 20px;
 }
 
 .callToAction {
-    font-size: 6em;
+    font-size: 2.5em;
     font-weight: 800;
-    line-height: 0.9;
+    line-height: 0.83;
 }
 
 #emph {
@@ -341,21 +341,21 @@
 }
 
 .cTADetails {
-    margin-top: 50px;
-    font-size: 1.8em;
+    margin-top: 30px;
+    font-size: 0.8em;
     font-weight: 400;
 }
 
 .cTAFoot {
-    margin-bottom: 50px;
-    font-size: 1.8em;
+    margin-bottom: 30px;
+    font-size: 0.8em;
     font-weight: 400;
 }
 
 .contactBtn {
     display: flex;
-    width: 400px;
-    height: 60px;
+    width: 150px;
+    height: 25px;
     flex: 1;
     flex-direction: column;
     text-align: center;
@@ -369,9 +369,9 @@
 
     color: #1d2c1e;
     background-color: #acd3b4;
-    font-size: 1.8em;
+    font-size: 0.8em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     text-decoration: none;
     border-radius: 7px;
 
@@ -385,7 +385,7 @@
 }
 
 .contactImage {
-    width: 1000px;
-    height: 1000px;
+    width: 400px;
+    height: 400px;
     margin-right: 150px;
 }
