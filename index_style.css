@@ -309,8 +309,8 @@
 .contactSection {
     background-color: #1d2c1e;
     padding-left: 100px;
-    padding-top: 250px;
-    padding-bottom: 300px;
+    padding-top: 150px;
+    padding-bottom: 100px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -388,4 +388,14 @@
     width: 400px;
     height: 400px;
     margin-right: 150px;
+}
+
+.rights {
+    background-color: #1d2c1e;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
 }
