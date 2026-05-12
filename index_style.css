@@ -304,9 +304,26 @@
     background-color: #acd3b4;
 }
 
+/* Footer Blend Section */
+
+.footerBlend {
+    position: relative;
+    margin-left: -0.5em;
+    margin-bottom: -0.7em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18em;
+    font-weight: 1000;
+    color: #1d2c1e;
+    letter-spacing: -0.4em;
+    transform: perspective(600px) rotateX(20deg);
+    z-index: 0;    
+}
+
 /* Contact Section */
 
 .contactSection {
+    position: relative;
     background-color: #1d2c1e;
     padding-left: 100px;
     padding-top: 150px;
@@ -321,6 +338,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .contactText {
