@@ -3,7 +3,7 @@ Color Scheme:
     Primary: #1d2c1e (Dark Green)
     Secondary: #ffe99a (Light Yellow)
     Accent: #d46921 (Vibrant Orange)
-    Black: #0F0F0F
+    Black: #231F20
     White: #EFEEE8
 
 
@@ -24,7 +24,7 @@ Color Scheme:
 }
 
 body {
-    background-color: #ffe99a;
+    background-color: #EFEEE8;
 }
 
 #portfolioLanding {
@@ -82,12 +82,10 @@ body {
 
 .sectionSpacerSmall {
     margin: 100px;
-    background-color: #ffe99a;
 }
 
 .sectionSpacerMedium {
     margin: 125px;
-    background-color: #ffe99a;
 }
 
 #contentHeading {
@@ -97,7 +95,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 3em;
     font-weight: 800;
-    background-color: #ffe99a;
 }
 
 #contentHR {
@@ -209,118 +206,45 @@ body {
     background-color: #1d2c1e;
 }
 
-/* Skills Section */
+/* About Me Section */
 
-#skills {
+#sectionHeading {
+    background-color: #d8d7d1;
+    border-radius: 3em 3em 0 0;
+    color: #1d2c1e;
+    padding: 50px;
+    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 0.5em;
-    margin-top: 50px;
-    text-align: left;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 3em;
+    font-weight: 800;
 }
 
-.container {
-    width: 1100px;
-    margin: 0 auto;
-    margin-bottom: 100px;
-    padding: 10px;
-    display: grid;
-    grid-template-rows: 2fr repeat(6, 2fr);
-    grid-template-columns: repeat(4, 2fr);
-    gap: 8px;
-    border-radius: 10px;
-}
-
-.item {
-    border-radius: 10px;
-}
-
-.item-2, .item-4, .item-6 {
-    font-size: 1em;
-    font-weight: 700;
-    color: #1d2c1e;
-    align-content: center;
-    text-align: right;
-    padding: 10px;
-    padding-right: 40px;
-}
-
-.item-3, .item-5, .item-7 {
-    font-size: 1em;
-    font-weight: 600;
-    color: #1d2c1e;
-    align-content: center;
-    text-align: left;
-    padding: 10px;
-    padding-left: 40px;
-}
-
-.item-3 ul, .item-5 ul, .item-7 ul {
+#aboutMeContainer {
+    position: relative;
     display: flex;
     flex-direction: row;
-    gap: 0;
-    list-style: none;
-    padding-left: 0;
-}
-
-.item-3 ul li, .item-5 ul li, .item-7 ul li {
-    padding: 0 15px;
-}
-
-.item-3 ul li + li, .item-5 ul li + li, .item-7 ul li + li {
-    border-left: 2px solid #d46921;
-}
-
-.item-1 {
-    display: flex;
-    grid-area: 1 / 1 / 2 / 5;
-    border-radius: 20px;
-    background-color: #1d2c1e;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+}
+
+.aboutMeSection{
+    background-color: #d8d7d1;
+    border-radius: 3em 3em 0 0;
+    color: #1d2c1e;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#aboutMeHeader {
+    display: flex;
+    color: #1d2c1e;
+    text-align: left;
     font-size: 2em;
     font-weight: 900;
-    color: #ffe99a;
+    font-style: italic;
+    padding-left: 0.5em;
 }
 
-.item-2 {
-    display: grid;
-    grid-area: 2 / 1 / 4 / 2;
-    background-color: #EFEEE8;
-}
-
-.item-3 {
-    display: grid;
-    grid-area: 2 / 2 / 4 / 5;
-    background-color: #EFEEE8;
-}
-
-.item-4 {
-    display: grid;
-    grid-area: 4 / 1 / 6 / 2;
-    background-color: #EFEEE8;
-}
-
-.item-5 {
-    display: grid;
-    grid-area: 4 / 2 / 6 / 5;
-    background-color: #EFEEE8;
-}
-
-.item-6 {
-    display: grid;
-    grid-area: 6 / 1 / 8 / 2;
-    background-color: #EFEEE8;
-}  
-
-.item-7 {
-    display: grid;
-    grid-area: 6 / 2 / 8 / 5;
-    background-color: #EFEEE8;
-}
 
 /* Footer Blend Section */
 
