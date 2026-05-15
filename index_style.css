@@ -320,6 +320,13 @@ body {
 .skillsRight div {
     background-color: #13a31d;
     border-radius: 1em;
+    transition: all 0.3s ease;
+}
+
+.skillsRight div:hover {
+    background-color: #d46921;
+    transform: scale(1.2);
+    box-shadow: 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 1em #d46921, 0 0 2em #d46921, 0 0 4em #d46921;
 }
 
 .skillsItem-1, .skillsItem-5, .skillsItem-10 {
