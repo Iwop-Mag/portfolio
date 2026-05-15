@@ -90,20 +90,30 @@ body {
 
 #contentHeading {
     color: #1d2c1e;
-    padding: 50px;
+    margin: 50px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 800;
+    font-style: oblique;
 }
 
-#contentHR {
-    width: 550px;
-    height: 5px;
+#portfolioHeading {
+    display: block;
     background-color: #1d2c1e;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+}
+
+#portfolioHeading h1 {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 150px;
+    border-radius: 0.5em;
+    background-color: #EFEEE8;
+    color: #1d2c1e;
+    text-align: center;
+    font-size: 5em;
+    font-weight: 900;
 }
 
 /* Research Section */
@@ -208,47 +218,45 @@ body {
 
 /* About Me Section */
 
-#sectionHeading {
-    background-color: #d8d7d1;
-    border-radius: 3em 3em 0 0;
-    color: #1d2c1e;
-    padding: 50px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3em;
-    font-weight: 800;
-}
-
-#aboutMeContainer {
+.aboutMeSection {
+    padding-top: 2em;
     position: relative;
+    text-align: left;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: #dfddd8;
+    border-radius: 5em 5em 0 0;
 }
 
-.aboutMeSection{
-    background-color: #d8d7d1;
-    border-radius: 3em 3em 0 0;
+.aboutMeHeader h2 {
+    padding-left: 1em;
     color: #1d2c1e;
-    padding: 50px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-#aboutMeHeader {
-    display: flex;
-    color: #1d2c1e;
-    text-align: left;
-    font-size: 2em;
+    font-size: 6em;
     font-weight: 900;
-    font-style: italic;
-    padding-left: 0.5em;
 }
 
+.aboutMeText {
+    padding-right: 6em;
+    padding-top: 1em;
+    max-width: 24.5em;
+    color: #1d2c1e;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.aboutMeText span {
+    color: #d46921;
+}
 
 /* Footer Blend Section */
+.footerBlendBG {
+    background-color: #dfddd8;
+}
 
 .footerBlend {
+    background-color: #dfddd8;
     position: relative;
     margin-left: -0.5em;
     margin-bottom: -0.7em;
