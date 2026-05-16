@@ -251,6 +251,8 @@ body {
     color: #d46921;
 }
 
+/* Skills */
+
 .skillsSection {
     padding-top: 5em;
     padding-bottom: 5em;
@@ -261,7 +263,7 @@ body {
     align-content: center;
     justify-content: space-between;
     background-color: #eedfa8;
-    box-shadow: 0 0 2em #FFF;
+    box-shadow: 0 -2em 2em #FFF, 0 -2em 2em rgba(255, 255, 255, 0.5);
 }
 
 .skillsLeft {
@@ -304,9 +306,10 @@ body {
 }
 
 .skillsLeft a:hover {
-    color: #ffe99a;
+    color: #ffffffd8;
     font-weight: 700;
     transform: scale3d(1.1, 1.1, 1.1);
+    text-shadow: 0 0 0.2em #fff;
     box-shadow: 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 1em #d46921, 0 0 2em #d46921, 0 0 4em #d46921;
 }
 
@@ -318,15 +321,30 @@ body {
 }
 
 .skillsRight div {
-    background-color: #13a31d;
+    display: flex;
+    padding-left: 1em;
+    background-color: #e8efe8;
+    color: #1d2c1e;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: 0.8;
     border-radius: 1em;
     transition: all 0.3s ease;
+    box-shadow: 0 0 0.5em rgba(35, 31, 32, 0.2);
+    align-items: center;
 }
 
-.skillsRight div:hover {
+#animatedCell:hover {
     background-color: #d46921;
-    transform: scale(1.2);
+    color: #ffffffd8;
+    transform: scale(1.05);
+    text-shadow: 0 0 0.2em #fff;
     box-shadow: 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 1em #d46921, 0 0 2em #d46921, 0 0 4em #d46921;
+}
+
+#emptyCell {
+    background: linear-gradient(to right, #e8efe8, #e8efe8, #eedfa8, #eedfa8);
+    box-shadow: -0.3em 0 0.2em rgba(35, 31, 32, 0.05);
 }
 
 .skillsItem-1, .skillsItem-5, .skillsItem-10 {
@@ -347,6 +365,47 @@ body {
 
 .skillsItem-4, .skillsItem-9, .skillsItem-13 {
     grid-column: span 1;
+}
+
+/* Computer Languages */
+
+.computerLanguagesSection {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    background-color: #8fcc93;
+}
+
+.computerLanguagesSection h3 {
+    margin-bottom: 5px;
+    color: #1d2c1e;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+}
+
+.computerLanguagesSection p {
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    color: #1d2c1e;
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    line-height: 1;
+}
+
+.bubbleContainer {
+    margin-top: 3em;
+    display: grid;
+    grid-template: repeat(3, 70px) / repeat(10, 70px);
+    justify-content: center;
+    gap: 10px;
+}
+
+.bubbleContainer div {
+    border-radius: 100%;
+    background-color: #d46921;
 }
 
 /* Footer Blend Section */
