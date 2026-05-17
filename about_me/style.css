@@ -1,0 +1,65 @@
+/*
+Color Scheme:
+    Primary: #1d2c1e (Dark Green)
+    Secondary: #ffe99a (Light Yellow)
+    Accent: #d46921 (Vibrant Orange)
+    Black: #231F20
+    White: #EFEEE8
+
+
+
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #ffe99a;
+    color: #1d2c1e;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heroSection {
+    height: 52em;
+    display: block;
+}
+
+.greetingsHero {
+    padding-top: 35em;
+    padding-left: 4em;
+}
+
+.greetingsHero h2 {
+    color: #d46921;
+    font-size: 2em;
+    font-family: 'Montserrat', sans-serif;
+    font-style: oblique;
+    transition: all 0.5s ease;    
+}
+
+.greetingsHero h1 {
+    font-size: 5em;
+    font-weight: 900;
+    font-family: 'Syne', sans-serif;
+    font-style: bold;
+    line-height: 0.7;
+    transition: all 0.5s ease;
+}
+
+.greetingsHero h2:hover {
+    text-shadow: 0 0 0.1em rgba(255, 255, 255, 0.3), 0 0 0.15em rgba(255, 255, 255, 0.3),  0 0 0.3em rgba(212, 105, 33, 0.4), 0 0 0.4em rgba(212, 105, 33, 0.4), 0 0 0.5em rgba(212, 105, 33, 0.4);
+}
+
+.greetingsHero h1:hover {
+    text-shadow: 0 0 0.1em rgba(255, 255, 255, 0.3), 0 0 0.15em rgba(255, 255, 255, 0.3),  0 0 0.3em rgba(48, 179, 57, 0.4), 0 0 0.4em rgba(48, 179, 57, 0.4), 0 0 0.5em rgba(29, 44, 30, 0.4);
+}
+
