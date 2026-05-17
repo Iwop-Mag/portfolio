@@ -383,7 +383,7 @@ body {
     text-align: center;
 }
 
-.computerLanguagesSection p {
+#computerLanguagesDescription {
     margin-top: 0.5em;
     margin-left: auto;
     margin-right: auto;
@@ -398,14 +398,55 @@ body {
 .bubbleContainer {
     margin-top: 3em;
     display: grid;
-    grid-template: repeat(3, 70px) / repeat(10, 70px);
+    grid-template: repeat(1, 90px) / repeat(7, 90px);
     justify-content: center;
     gap: 10px;
 }
 
 .bubbleContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 100%;
     background-color: #d46921;
+    color:#ffe99a;
+    font-size: 0.9em;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    box-shadow: 0 0 0.5em rgba(35, 31, 32, 0.3);
+    transition: all 0.3s ease;
+}
+
+.bubbleContainer div:hover {
+    background-color: #ffe99a;
+    color: #1b5c1e;
+    text-shadow: 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 0.4em rgba(99, 255, 107, 0.8), 0 0 0.8em rgba(99, 255, 107, 0.8), 0 0 1.6em rgba(99, 255, 107, 0.8), 0 0 3.2em rgba(99, 255, 107, 0.8);
+    transform: scale(1.1);
+    box-shadow: 0 0 0.2em #fff, 0 0 0.3em #fff, 0 0 1em #ffe99a, 0 0 2em #ffe99a, 0 0 4em #ffe99a;
+}
+
+.bubbleContainer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Learn More */
+
+.learnMore {
+    padding-top: 1em;
+    padding-bottom: 3em;
+    background-color: #dfddd8;
+    color: #1d2c1e;
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* Footer Blend Section */
